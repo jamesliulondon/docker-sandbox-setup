@@ -1,0 +1,33 @@
+root@22a893ade690 sandbox]# history |grep -v ls
+    3  cd code
+    5  cd conda/
+    7  wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
+    8  chmod a+x Miniconda2-latest-Linux-x86_64.sh 
+    9  ./Miniconda2-latest-Linux-x86_64.sh 
+   10  . ~/.bashrc
+   11  conda install hdfs3 -c conda-forge
+   12  ps -ef
+   13  netstat -ntlp
+   15  cd code
+   16  cd /code
+   18  cd hdfs-transfer/
+   20  cd sandbox/
+   22  vi ./runme2.py 
+   23  ifconfig
+   24  ip addr show
+   25  clear
+   26  ip addr shor
+   27  ip addr show
+   28  ping 172.17.0.3
+   30  vi 
+   32  vi runme2.py 
+   33  ./runme2.py 
+   34  vi runme2.py 
+   35  python runme2.py 
+   36  yum install telnet -y
+   37  telnet 172.17.0.3 8020
+   38  ifconfig
+   39  vi runme2.py 
+   40  python runme2.py 
+   41  history
+
